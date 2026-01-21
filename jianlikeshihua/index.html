@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站 - 学生求职 & 博主内容展示</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 固定导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>个人网站</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">首页</a></li>
+                <li><a href="#resume">求职简历</a></li>
+                <li><a href="#military">军旅生涯</a></li>
+                <li><a href="#blogger">博主内容</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 个人介绍区（Hero区上方） -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <h1>时金辉</h1>
+                <p class="subtitle">土地资源管理专业学生 | 内容创作博主</p>
+                <p class="description">专注于传统文化挖掘，擅长运用AI工具进行数据可视化分析、网页制作等</p>
+                <div class="intro-buttons">
+                    <a href="时金辉个人简历.pdf" class="btn primary" target="_blank">查看简历</a>
+                    <a href="#blogger" class="btn secondary">浏览内容</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero区 -->
+    <section class="hero" id="hero">
+        <!-- 背景图轮播 -->
+        <div class="hero-slider">
+            <div class="hero-slide" style="background-image: url('图片素材/43a50a8bdd0de560.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('图片素材/微信图片_20250923002627_52_34.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('图片素材/13877ea6d9ca2197.jpg');"></div>
+            
+        </div>
+        <!-- 轮播图微缩图导航 -->
+        <div class="hero-nav">
+            <div class="nav-dots">
+                <button class="nav-dot active" data-index="0"></button>
+                <button class="nav-dot" data-index="1"></button>
+                <button class="nav-dot" data-index="2"></button>
+            </div>
+            <div class="nav-thumbnails">
+                <button class="nav-thumbnail active" data-index="0" style="background-image: url('图片素材/43a50a8bdd0de560.jpg');"></button>
+                <button class="nav-thumbnail" data-index="1" style="background-image: url('图片素材/微信图片_20250923002627_52_34.jpg');"></button>
+                <button class="nav-thumbnail" data-index="2" style="background-image: url('图片素材/13877ea6d9ca2197.jpg');"></button>
+           
+            </div>
+        </div>
+    </section>
+
+    <!-- 求职展示区 -->
+    <section class="resume" id="resume">
+        <div class="container">
+            <h2 class="section-title">求职简历</h2>
+            
+            <!-- 教育背景 -->
+            <div class="resume-section fade-in">
+                <h3 class="section-subtitle">教育背景</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>郑州大学</h4>
+                            <p class="timeline-date">2023.09 - 2026.07</p>
+                            <p class="timeline-desc">土地资源管理专业 | 硕士研究生</p>
+                            <p class="timeline-desc">担任管理学院2023级年纪长、农业组织创新研究生党支部副书记</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>西南财经大学</h4>
+                            <p class="timeline-date">2017.09 - 2023.07</p>
+                            <p class="timeline-desc">旅游管理 | 本科</p>
+                            <p class="timeline-desc">先后担任班长、心理委员、本科生第四党支部纪律委员</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 技能栈 -->
+            <div class="resume-section fade-in">
+                <h3 class="section-subtitle">技能栈</h3>
+                <div class="skills">
+                    <div class="skill-category">
+                        <h4>AI网页制作</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AI工具应用</span>
+                            <span class="skill-tag">Prompt工程</span>
+                            <span class="skill-tag">网页设计与制作</span>
+                            <span class="skill-tag">响应式设计</span>
+                            <span class="skill-tag">内容排版优化</span>
+                            <span class="skill-tag">视觉效果设计</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>小程序设计</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">小程序UI设计</span>
+                            <span class="skill-tag">需求分析</span>
+                            <span class="skill-tag">微信小程序开发</span>
+                            <span class="skill-tag">前端框架学习</span>
+                            <span class="skill-tag">应用设计</span>
+                            <span class="skill-tag">用户体验优化</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>其他技能</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">内容策划</span>
+                            <span class="skill-tag">数据分析</span>
+                            <span class="skill-tag">视频剪辑</span>
+                            <span class="skill-tag">运营推广</span>
+                            <span class="skill-tag">心理分析</span>
+                            <span class="skill-tag">预测分析</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 实习经历 -->
+            <div class="resume-section fade-in">
+                <h3 class="section-subtitle">实习经历</h3>
+                <div class="internship">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>高途教育</h4>
+                            <p class="timeline-date">2024.07 - 2024.09</p>
+                            <p class="timeline-desc">HRBP实习生</p>
+                            <table class="internship-table">
+                                <tr>
+                                    <th>职责类别</th>
+                                    <th>具体描述</th>
+                                </tr>
+                                <tr>
+                                    <td><strong>团队激励与文化运营</strong></td>
+                                    <td>协助设计<span class="highlight">周度、月度激励方案</span>，完成激励海报制作与物质礼品采购发放；运营团队文化氛围，定期更新海报照片墙，组织生活会等活动，<span class="highlight">增强团队凝聚力</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>人力资源数据分析支持</strong></td>
+                                    <td>协助收集整理<span class="highlight">员工流失率、招聘成本、员工满意度</span>等核心数据，通过基础数据分析形成<span class="highlight">可视化报告</span>，为HR决策提供数据参考</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>项目执行与过程监控</strong></td>
+                                    <td>协助跟进人力资源相关项目执行，<span class="highlight">监控进度与预算</span>，及时反馈风险点，<span class="highlight">保障项目按时按预算交付</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 军旅生涯板块 -->
+    <section class="military" id="military">
+        <div class="container">
+            <h2 class="section-title">军旅生涯</h2>
+            <p class="section-desc">难忘的军旅时光，铸就了坚韧不拔的意志和忠诚担当的品质</p>
+            
+            <!-- 军旅体验 -->
+            <div class="resume-section fade-in">
+                <h3 class="section-subtitle">军旅体验</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>中国人民解放军32168部队</h4>
+                            <p class="timeline-date">2018.09 - 2020.09</p>
+                            <p class="timeline-desc">战士 | 文书</p>
+                            <table class="military-table">
+                                <tr>
+                                    <th>任务类型</th>
+                                    <th>时间地点</th>
+                                    <th>主要经历</th>
+                                    <th>获得荣誉</th>
+                                    <th>锤炼品质</th>
+                                </tr>
+                                <tr>
+                                    <td><strong>野外驻训</strong></td>
+                                    <td>2019年 雅鲁藏布江边</td>
+                                    <td>执行野外驻训任务，经历了"严寒——酷暑——严寒"的三重奏，环境恶劣，荒无人烟，风起时黄沙漫天</td>
+                                    <td class="honor">优秀士兵荣誉称号、嘉奖</td>
+                                    <td>艰苦奋斗、适应环境</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>边防管控</strong></td>
+                                    <td>2020年 中印冲突前线</td>
+                                    <td>在最前线执行边防管控任务，时刻做好了血塞疆场、誓死捍卫祖国尊严和人民军队荣誉的准备</td>
+                                    <td class="honor">三等功一次</td>
+                                    <td>不屈不挠、勇敢无畏、忠诚担当</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>文书工作</strong></td>
+                                    <td>服役期间</td>
+                                    <td>填报材料、制作计划、到机关单位领取、提交材料</td>
+                                    <td>领导一致赞赏</td>
+                                    <td>高效认真、细致耐心、执行力强</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 勋章荣誉 -->
+            <div class="resume-section fade-in">
+                <h3 class="section-subtitle">勋章荣誉</h3>
+                <div class="honors-gallery">
+                    <!-- 4张竖屏图片 -->
+                    <div class="honor-item">
+                        <div class="honor-image">
+                            <img src="图片素材/军旅生涯/三等功.jpg" alt="三等功">
+                        </div>
+                    </div>
+                    <div class="honor-item">
+                        <div class="honor-image">
+                            <img src="图片素材/军旅生涯/三等功壳子.jpg" alt="三等功壳子">
+                        </div>
+                    </div>
+                    <div class="honor-item">
+                        <div class="honor-image">
+                            <img src="图片素材/军旅生涯/优秀义务兵.jpg" alt="优秀义务兵">
+                        </div>
+                    </div>
+                    <div class="honor-item">
+                        <div class="honor-image">
+                            <img src="图片素材/军旅生涯/优秀义务兵壳子.jpg" alt="优秀义务兵壳子">
+                        </div>
+                    </div>
+                    <!-- 2张横屏图片 -->
+                    <div class="honor-item honor-item-wide">
+                        <div class="honor-image">
+                            <img src="图片素材/军旅生涯/三等功喜报.jpg" alt="三等功喜报">
+                        </div>
+                    </div>
+                    <div class="honor-item honor-item-wide">
+                        <div class="honor-image">
+                            <img src="图片素材/军旅生涯/优秀士兵喜报.jpg" alt="优秀士兵喜报">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 博主内容区 -->
+    <section class="blogger" id="blogger">
+        <div class="container">
+            <h2 class="section-title">博主内容</h2>
+            <p class="section-desc"><strong>专注于分享优秀传统文化，提高国人精神内核，欢迎关注我的各个平台</strong></p>
+            <p class="section-desc">粉丝总量200，累计播放量五万+；创作67条原创视频，获得1000点赞</p>
+            <!-- 内容栏目 -->
+            <div class="blogger-sections">
+                <!-- 微信视频号 -->
+                <div class="blogger-section fade-in" id="wechat">
+                    <div class="section-header">
+                        <h3 class="section-subtitle">微信视频号</h3>
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="content-preview">
+                        <div class="content-item video-item">
+                            <div class="video-thumbnail">
+                                <img src="图片素材/视频号.png" alt="微信视频号内容">
+                                <div class="video-play-btn">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <h4>【青春同频·共闪一心】两岸青年学子齐聚黄帝故里，共唱《天地龙鳞》</h4>
+                            <p>用音乐传递文化认同，用舞蹈唤醒血脉共鸣！</p>
+                        </div>
+                    </div>
+                    <a href="#" class="view-more" onclick="showWechatName()">查看全部内容</a>
+                    <div id="wechat-name" class="platform-name" style="display: none;">
+                        微信视频号名称：根文化传播
+                    </div>
+                </div>
+
+                <!-- 抖音号 -->
+                <div class="blogger-section fade-in" id="douyin">
+                    <div class="section-header">
+                        <h3 class="section-subtitle">抖音号</h3>
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <div class="content-preview">
+                        <div class="content-item video-item">
+                            <div class="video-thumbnail">
+                                <img src="图片素材/抖音.png" alt="抖音视频内容">
+                                <div class="video-play-btn">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <h4>天地不仁，以万物为刍狗。这句话什么意思呢？</h4>
+                            <a href="https://www.douyin.com/user/self/search/%E9%81%93%E5%BE%B7%E7%BB%8F%E6%AD%A3%E6%9C%AC%E6%B8%85%E6%BA%90?aid=b399784e-41da-4d04-9f63-350525585c27&modal_id=7394363778239876393&type=general" class="content-link" target="_blank">查看视频</a>
+                        </div>
+                    </div>
+                    <a href="https://www.douyin.com/user/self/search/%E9%81%93%E5%BE%B7%E7%BB%8F%E6%AD%A3%E6%9C%AC%E6%B8%85%E6%BA%90?aid=b399784e-41da-4d04-9f63-350525585c27&type=general" class="view-more" target="_blank">查看全部内容</a>
+                </div>
+            </div>
+
+
+            <!-- 成果展示栏目 -->
+            <div class="achievements fade-in">
+                <h3 class="section-subtitle">成果展示</h3>
+                <div class="achievements-grid">
+                    <!-- 学术成果 -->
+                    <div class="achievement-item">
+                        <div class="achievement-header">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>学术成果（7项）</h4>
+                        </div>
+                        <div class="achievement-content">
+                            <ul class="achievement-list">
+                                <li><strong>牛文涛,时金辉.农业新质生产力赋能现代乡村产业体系的逻辑理路[OL].新华⽹“学术中国”,2025.11.19.（中文核心级别）</strong></li>
+                                <li>参与撰写《小产品与大产业》（专著），北京：社会科学文献出版社（权威出版社），2025年8月出版，个人撰写13万字（书中明确标注所撰写内容和章节，全书共59.9万字）</li>
+                                <li>国家社会科学基金一般项目《乡村全产业体系的培育机制及推进策略研究》，项目编号：24BJY163.</li>
+                                <li>参与郑州大学2023年研究生暑期社会实践项目《政策引领与比较优势发挥：乡村优势特色产业培育的现实路径新观察——以信阳市浉河区为例》，经费7500元</li>
+                                <li>主持郑州大学2024年研究生暑期社会实践项目《悠扬琴韵助振兴 产业兴旺富乡村——确山县特色产业赋能乡村振兴的路径和机制研究》，经费2000元.</li>  
+                                <li>主持郑州大学2025年党建工作样板支部培育项目（党建工作样板学生党支部——中共郑州大学管理学院农业组织创新研究生支部委员会），经费2000元.</li> 
+                                 <li>国家级媒体报道 时金辉.郑州大学：悠扬琴韵助振兴 产业兴旺富乡村[OL]中国乡村振兴网,2024.07.21..
+</li> 
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 获得荣誉 -->
+                    <div class="achievement-item">
+                        <div class="achievement-header">
+                            <i class="fas fa-trophy"></i>
+                            <h4>获得荣誉（17项）</h4>
+                        </div>
+                        <div class="achievement-content">
+                            <ul class="awards-list">
+                                <li>河南省优秀研究生干部</li>
+                                <li>河南省先进班集体</li>
+                                <li>郑州大学三好研究生</li>
+                                <li>郑州大学优秀研究生干部</li>
+                                <li>郑州大学优秀党务工作者</li>
+                                <li>郑州大学先进班集体</li>
+                                <li>郑州大学大学生社会实践活动先进个人（2次）</li>
+                                <li>2023、2024、2025年硕士研究生省级学业奖学金（一等）</li>
+                                <li>郑州大学社会实践项目获结项“优秀”等级（三次）</li>
+                                <li>第八届“策论中国”入围奖</li>
+                                <li>湖北省城乡统筹发展研究会2024年年会优秀论文三等奖</li>
+                                <li>入选24秋清华大数据与因果推断研讨班（清华大学计算社会科学与国家治理实验室承办）</li>
+                                <li>郑州大学PPT设计大赛团队赛二等奖</li>
+                                <li>郑州大学首届大学生职业规划大赛（就业赛道）优秀奖</li>
+                                <li>郑州大学研究生先进党支部（任职学生支部副书记期间）</li>
+                                <li>郑州大学党建工作样板学生党支部（任学生支部副书记期间）</li>
+                                <li>郑州大学研工部署期社会实践《一"旅"茶"乡"一一信阳市茶旅融合赋能乡村振兴的路径及机制研究》结项，“优秀”等级(全校11项)</li>
+                                <li>郑州大学研工部寒假社会实践《农旅融合展新颜，乡村振兴迎新篇一一洛阳市农旅融合赋能乡村振兴的路径及机制研究》结项，“优秀”等级(全校9项)</li>
+                                <li>郑州大学研工部署假社会实践《悠扬琴韵助振兴.产业兴旺富乡村一一确山县特色产业赋能乡村振兴的路径和机制研究》结项，“优秀”等级(全校14项)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 创作成果 -->
+                    <div class="achievement-item">
+                        <div class="achievement-header">
+                            <i class="fas fa-book"></i>
+                            <h4>创作成果</h4>
+                        </div>
+                        <div class="achievement-content">
+                            <!-- 配图 -->
+                            <div class="achievement-image">
+                                <img src="图片素材/道德经.png" alt="道德经创作">
+                            </div>
+                            <!-- 成果列表 -->
+                            <ul class="achievement-list">
+                            </ul>
+                            <!-- PDF链接 -->
+                            <div class="achievement-pdf">
+                                <a href="老子心中的德道世界书稿.pdf" class="pdf-link" target="_blank">
+                                    <i class="fas fa-file-pdf"></i>
+                                    查看完整书稿PDF
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部区域 -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:zhangsan@example.com">shi17394946420@163.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="#">抖音：道德经正本清源</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-weixin"></i>
+                            <span>微信视频号：根文化传播</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-book"></i>
+                            <span>小红书：无道本空</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul class="quick-links">
+                        <li><a href="#hero">首页</a></li>
+                        <li><a href="#resume">求职简历</a></li>
+                        <li><a href="#blogger">博主内容</a></li>
+                        <li><a href="#contact">联系方式</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 时金辉 字敝蒙 号余文. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
